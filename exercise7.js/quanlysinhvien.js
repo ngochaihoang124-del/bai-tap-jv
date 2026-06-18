@@ -1,7 +1,7 @@
 
 let danhSachSinhVien = ["Hoang Ngoc Hai", "Vo Tong", "Le Ngoc Khanh", "Ha Thu O"];
 
-// 2. Hiển thị danh sách sinh viên 
+// 1. Hiển thị danh sách sinh viên 
 function hienThiBang(danhSach = danhSachSinhVien) {
     let tbody = document.getElementById("studentTableBody");
     let targetHtml = "";
