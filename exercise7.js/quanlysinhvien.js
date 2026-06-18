@@ -1,4 +1,3 @@
-
 let danhSachSinhVien = ["Hoang Ngoc Hai", "Vo Tong", "Le Ngoc Khanh", "Ha Thu O"];
 
 // 1. Hiển thị danh sách sinh viên 
