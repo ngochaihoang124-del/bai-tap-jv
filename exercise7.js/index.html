@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ứng Dụng Quản Lý Sinh Viên</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app-container">
+    <h1>HỆ THỐNG QUẢN LÝ SINH VIÊN</h1>
+
+    <div class="toolbar">
+        <input type="text" id="searchInput" placeholder="Tìm kiếm theo tên gần đúng..." onkeyup="xuLyTimKiem()">
+        <button onclick="xuLySapXep()" class="btn-sort">Sắp xếp A-Z</button>
+    </div>
+
+    <div class="input-form">
+        <input type="text" id="studentNameInput" placeholder="Nhập tên sinh viên mới...">
+        <button onclick="xuLyThemMoi()" class="btn-add">Thêm Mới</button>
+    </div>
+
+    <div class="summary">
+        <span id="totalStudents">Tổng số: 0 sinh viên</span>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 10%">STT</th>
+                <th style="width: 60%">Tên Sinh Viên</th>
+                <th style="width: 30%">Thao tác</th>
+            </tr>
+        </thead>
+        <tbody id="studentTableBody">
+            </tbody>
+    </table>
+</div>
+
+<script src="quanlysinhvien.js"></script>
+</body>
+</html>
